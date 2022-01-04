@@ -6,8 +6,8 @@ body {
     padding: 0;
 }
 
-img {
-    max-width: 100%;
+p {
+    color: dimgray;
 }
 
 a {
@@ -15,11 +15,14 @@ a {
 }
 
 section {
-    display: flex;
+    height: 500px;
+    margin-bottom: 150px;
 }
 
+
+
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .h1_orange {
@@ -27,12 +30,14 @@ h1 {
 }
 
 .half-width {
-    width: 50%;
+    width: 40%;
     padding-left: 2%;
+    margin-left: 5%;
+    float: left;
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
 }
 
 .hireme {
@@ -41,10 +46,17 @@ h1 {
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
 }
