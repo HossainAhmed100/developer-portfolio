@@ -14,15 +14,19 @@ a {
     text-decoration: none;
 }
 
-section {
-    height: 500px;
+.flexable-container {
     margin-bottom: 150px;
+    display: block;
+    height: 65vh;
 }
-
-
 
 h1 {
     font-size: 40px;
+}
+
+.section-title {
+    text-align: center;
+    padding: 50px 0px;
 }
 
 .h1_orange {
@@ -59,4 +63,9 @@ h1 {
     background-repeat: no-repeat;
     background-image: url(images/dream-bg.png);
     background-position: right;
+}
+
+.xp {
+    box-shadow: 0px 0px 20px 2px #d8d8d8;
+    border-radius: 4px;
 }
